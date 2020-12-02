@@ -10,5 +10,5 @@ class LessonItem:
         self.video_url = ''
         self.sort_id = sort_id
 
-    def fn(self):
+    def get_lesson_item_by_id(self, lesson_item_id):
         return None

@@ -31,3 +31,15 @@ class Student:
 
     def has_course_bookmark(self):
         return False
+
+    def get_last_lesson_item_not_completed(self, course_id):
+        return None
+
+    def get_all_course_notes(self, course_id):
+        return None
+
+    def add_course_note(self, course_note):
+        return None
+
+    def remove_course_note(self, course_note):
+        return None

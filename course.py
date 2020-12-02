@@ -24,3 +24,6 @@ class Course:
 
     def searchMatchCourseCount(self, search_text):
         return -1
+
+    def get_lesson_item(self, lesson_item_id):
+        return None
